@@ -222,6 +222,51 @@ body {
     text-align: center;
   }
 }
+/* General section styling */
+.interests {
+  padding: 60px 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+/* Grid layout */
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Each interest box */
+.interest-box {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 30px 10px;
+  width: 100%;
+  max-width: 250px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.interest-box h3 {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Hover effect */
+.interest-box:hover {
+  border-color: #0078ff;
+  box-shadow: 0 8px 20px rgba(0, 120, 255, 0.2);
+  transform: translateY(-5px);
+  background: #f0f8ff;
+}
 
 
 

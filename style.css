@@ -283,7 +283,7 @@ footer {
 
 @media (max-width: 480px) {
   .interests-grid {
-    grid-template-columns: 1fr; /* Single column on small phones */
+    grid-template-columns: 2; /* Single column on small phones */
     gap: 12px;
   }
 

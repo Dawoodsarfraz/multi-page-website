@@ -491,6 +491,7 @@ footer {
 }
 
 .research-item:hover {
+  background-color: #0078ff;
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
@@ -514,7 +515,7 @@ footer {
 }
 
 .research-content h3 {
-  color: #0078ff;
+  color: #000;
   font-size: 22px;
   margin-bottom: 10px;
 }

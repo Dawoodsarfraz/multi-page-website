@@ -1,28 +1,158 @@
+/* ===== Reset & Base ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* ===== Navbar ===== */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
-  background: #f8f9fa;
-  position: fixed;
-  justify-content: center;   /* Centers the nav items horizontally */
-  top: 0;
-  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap links on small screens */
+  gap: 15px;
 }
 
-.nav-links a {
+.nav-links li a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
+.nav-links li a:hover,
+.nav-links li a.active {
   color: #007bff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(to right, #00bcd4, #007bff);
+  color: white;
+}
+
+.hero h1 span {
+  color: #ffeb3b;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-buttons .btn,
+.hero-buttons .btn-outline {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero-buttons .btn {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+.hero-buttons .btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+/* ===== Intro Section ===== */
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.intro h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 15px 40px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .intro h2 {
+    font-size: 22px;
+  }
+
+  .intro p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero h3 {
+    font-size: 16px;
+  }
+
+  .hero-buttons .btn,
+  .hero-buttons .btn-outline {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .intro h2 {
+    font-size: 18px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
 }

@@ -27,7 +27,7 @@ body {
 
 /* ===== Navbar ===== */
 .navbar {
-  background-color: #010e1b;
+  background-color: #042b56eb;
   padding: 15px 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: sticky;
@@ -553,7 +553,7 @@ body {
 .research-item {
   display: flex;
   flex-wrap: wrap;
-  background: #09203a;
+  background: #042b56eb;
   border: 2px solid #0078ff;
   border-radius: 15px;
   padding: 25px;
@@ -678,7 +678,6 @@ body {
 /* ===== Blogs Section ===== */
 .blog-post {
   background: #09203a;
-  border: 2px solid greenyellow;
   border-radius: 12px;
   padding: 25px;
   margin: 20px auto;

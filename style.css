@@ -812,12 +812,6 @@ footer {
 }
 
 /* Section Title */
-.blogs-section .section-title h2 {
-  font-size: 32px;
-  color: #0078ff;
-  text-align: center;
-  margin-bottom: 10px;
-}
 
 .blogs-section .section-title p {
   font-size: 16px;
@@ -895,3 +889,183 @@ footer {
     font-size: 18px;
   }
 }
+
+
+/* ===== Experience Section ===== */
+.experience-section {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Each Experience Box */
+.experience-box {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border: 2px solid #0078ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-box:hover {
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background: #005fcc;
+
+}
+
+/* Left Side (Image) */
+.experience-left {
+  flex: 0 0 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-left img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #0078ff;
+}
+
+/* Right Side (Info) */
+.experience-right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.experience-right h3 {
+  color: #0078ff;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.experience-right h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.experience-right p {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.experience-right ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #000;
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 768px) {
+  .experience-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .experience-left {
+    margin-bottom: 15px;
+  }
+
+  .experience-right {
+    padding-left: 0;
+  }
+}
+
+
+
+/* ===== Section Title ===== */
+.section-title {
+  text-align: center;
+  margin: 40px 0 30px 0;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  border-bottom: 3px solid #0078ff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ===== Education Cards ===== */
+.education-card {
+  color: black;
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  align-items: flex-start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.education-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  color: #9ba3b4;
+  font-size: 0.9em;
+}
+
+/* ===== Course List ===== */
+.course-list {
+  columns: 3;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.course-list li {
+  margin: 4px 0;
+}
+
+/* ===== Certification Grid ===== */
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 50px 0;
+}
+
+.cert-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cert-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cert-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0078ff;
+  font-weight: bold;
+}
+

@@ -532,16 +532,6 @@ body {
   }
 }
 
-/* ===== Footer ===== */
-.footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 15px 10px;
-  font-size: 16px;
-  margin-top: 40px;
-}
-
 /* ===========================
    Research Styling
 =========================== */
@@ -576,7 +566,8 @@ body {
 }
 
 .video-container video {
-  width: 100%;
+  width: 80%;
+  height: 90%;
   border-radius: 10px;
   border: 2px solid #0078ff;
 }
@@ -587,14 +578,14 @@ body {
 }
 
 .research-content h3 {
-  color: #000;
+  color: greenyellow;
   font-size: 22px;
   margin-bottom: 10px;
 }
 
 .research-content p {
   font-size: 16px;
-  color: #444;
+  color: white;
   margin: 5px 0;
 }
 
@@ -628,16 +619,6 @@ body {
 .btn.warning { background: #ff9800; }
 .btn.secondary { background: #6c757d; }
 .btn.dark { background: #212529; }
-
-/* ===== Footer ===== */
-.footer {
-  background: #010e1b;
-  color: greenyellow;
-  text-align: center;
-  padding: 15px 10px;
-  font-size: 16px;
-  margin-top: 40px;
-}
 
 /* ===== Responsive Design ===== */
 @media (max-width: 900px) {
@@ -758,7 +739,7 @@ body {
   display: flex;
   align-items: flex-start;
   background: #09203a;
-  border: 2px solid #0078ff;
+  border: 2px solid greenyellow;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   padding: 20px;
@@ -855,9 +836,9 @@ body {
 
 /* ===== Education Cards ===== */
 .education-card {
-  color: black;
+  color: white;
   display: flex;
-  background: #fff;
+  background: #042b56eb;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 25px;
@@ -985,3 +966,13 @@ body {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
   }
+
+  /* ===== Footer ===== */
+.footer {
+  background: #042b56eb;
+  color: greenyellow;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 15px;
+  margin-top: 20px;
+}

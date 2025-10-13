@@ -9,7 +9,6 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding-top: 0px; /* ✅ gives space below fixed navbar */
   width: 100%;
   background: #0b0c10;
   color: #fff;
@@ -435,13 +434,24 @@ footer {
   }
 }
 
-/* ===== Skills ===== */
 /* ===== Skills Box ===== */
+.section-title h2 {
+  margin-top: 70px;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  position: center;
+  display: inline-block;
+  font-weight: 700;
+}
+
 .skills-box {
+  margin-top: 100px;
+  margin-bottom: 100px;
   background: #fff;
   border: 2px solid #0078ff;
   border-radius: 15px;
-  padding: 30px;
+  padding: 0px;
   max-width: 1100px;
   margin: 40px auto;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -459,16 +469,17 @@ footer {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 20px;
+  gap: 8px;
   justify-items: center;
   align-items: center;
 }
 
 /* ===== Each Item ===== */
 .item {
+  margin-bottom: 40px;
   background: #f9f9f9;
-  border-radius: 12px;
-  padding: 15px;
+  border-radius: 10px;
+  padding: 30px;
   text-align: center;
   transition: all 0.3s ease;
   width: 120px;
@@ -488,9 +499,9 @@ footer {
 
 /* ===== Image and Text ===== */
 .item img {
-  width: 45px;
-  height: 45px;
-  margin-bottom: 8px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 .item figcaption {
@@ -531,11 +542,13 @@ footer {
 
 
 /* Research */
-.research {
-  padding: 20px 10%;
+.blogs .section-title h2 {
+  font-size: larger;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-.research-item {
+.blog-post {
   display: flex;
   flex-wrap: wrap;
   background: white;
@@ -657,6 +670,149 @@ footer {
     padding: 7px 12px;
   }
 }
+
+
+/* ===========================
+   Blog Section Styling
+=========================== *//* Research */
+/* ===== Blogs Section ===== */
+.blogs-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Section Title */
+.blogs-section .section-title h2 {
+  font-size: 32px;
+  color: #0078ff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blogs-section .section-title p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Blog Post Boxes */
+.blog-post {
+  background: #fff;
+  border: 2px solid #0078ff;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: #0078ff;
+  color: #fff;
+  border-color: #005fcc;
+}
+
+/* Blog Headings */
+.blog-post h3 {
+  font-size: 22px;
+  color: #0078ff;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.blog-post:hover h3 {
+  color: #fff;
+}
+
+/* Blog Meta */
+.blog-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Blog Button */
+.blog-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0078ff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.blog-btn:hover {
+  background: #005fcc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-post {
+    max-width: 95%;
+    padding: 20px;
+  }
+
+  .blogs-section .section-title h2 {
+    font-size: 26px;
+  }
+
+  .blog-post h3 {
+    font-size: 18px;
+  }
+}
+
+
+/* ===== Footer ===== */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 900px) {
+  .research {
+    padding: 20px 5%;
+  }
+  .research-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .video-container, .research-content {
+    flex: 1 1 100%;
+  }
+  .research-content {
+    padding: 15px 0;
+  }
+  .button-group {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .section-title h2 {
+    font-size: 22px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
+}
+
+
 
 footer {
   position: fixed;

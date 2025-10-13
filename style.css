@@ -1110,6 +1110,120 @@ body {
   }
 }
 
+/* ===== Contact Page ===== */
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #0b0c10;
+  color: #fff;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #12d640;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-box {
+  background: #1f2833;
+  padding: 25px;
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(18, 214, 64, 0.4);
+}
+
+.contact-box h3 {
+  color: #12d640;
+  margin-bottom: 10px;
+}
+
+.contact-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  color: #12d640;
+}
+
+/* ===== Social Grid ===== */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.social-card {
+  background: #1f2833;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.social-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(18,214,64,0.4);
+}
+
+.social-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-card h3 {
+  color: #12d640;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.visit-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  background: #12d640;
+  color: #0b0c10;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.visit-btn:hover {
+  background: #0fa43a;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #1f2833;
+  padding: 20px;
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+
 
   /* ===== Footer ===== */
 .footer {

@@ -39,10 +39,10 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  flex-direction: row; /* Always horizontal */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* ✅ Allow wrapping to new lines */
+  flex-wrap: wrap; 
   gap: 12px;
   text-align: center;
   padding: 0;
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-links li a:hover, .nav-links li a.active {
-  color: rgb(65, 231, 65);
+  color: greenyellow;
   background: rgba(0, 120, 255, 0.08);
 }
 
@@ -218,7 +218,7 @@ body {
 .section-title h2 {
   text-align: center;
   font-size: 2rem;
-  color: #222;
+  color: greenyellow;
   margin-bottom: 40px;
 }
 
@@ -254,12 +254,12 @@ body {
   flex: 2 1 500px;
   font-size: 1rem;
   line-height: 1.8;
-  color: #333;
+  color: white;
   text-align: justify;
 }
 
 .about-text b {
-  color: #0078ff;
+  color: greenyellow;
 }
 
 
@@ -292,8 +292,8 @@ body {
 
 /* Interest Box Style */
 .interest-box {
-  background: #fff;
-  border: 2px solid #0078ff;
+  background: #09203a;
+  border: 2px solid greenyellow;
   border-radius: 15px;
   padding: 25px 15px;
   text-align: center;
@@ -302,7 +302,7 @@ body {
 }
 
 .interest-box:hover {
-  background: #0078ff;
+  background: #042b56eb;
   color: #fff;
   transform: translateY(-6px);
 }
@@ -430,7 +430,7 @@ body {
 .section-title h2 {
   margin-top: 70px;
   font-size: 30px;
-  color: #000;
+  color: greenyellow;
   text-transform: uppercase;
   position: center;
   display: inline-block;
@@ -797,7 +797,7 @@ body {
 }
 
 .experience-right h3 {
-  color: rgb(36, 218, 36);
+  color: greenyellow;
   font-size: 22px;
   margin-bottom: 5px;
 }
@@ -848,7 +848,7 @@ body {
 
 .section-title h2 {
   font-size: 2rem;
-  border-bottom: 3px solid #0078ff;
+  border-bottom: 3px solid greenyellow;
   display: inline-block;
   padding-bottom: 5px;
 }

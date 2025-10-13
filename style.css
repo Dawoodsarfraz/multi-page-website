@@ -698,7 +698,7 @@ body {
 /* Blog Headings */
 .blog-post h3 {
   font-size: 22px;
-  color: #0078ff;
+  color: greenyellow;
   margin-bottom: 10px;
   transition: color 0.3s ease;
 }
@@ -718,7 +718,7 @@ body {
 .blog-btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #0078ff;
+  background: greenyellow;
   color: #fff;
   border-radius: 6px;
   text-decoration: none;
@@ -726,7 +726,7 @@ body {
 }
 
 .blog-btn:hover {
-  background: #005fcc;
+  background: greenyellow;
 }
 
 /* Responsive Design */

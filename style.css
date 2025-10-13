@@ -350,7 +350,7 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  background: #f8f9fb;
+  background: yellowgreen;
   border-radius: 16px;
   padding: 20px;
   margin: 30px auto;
@@ -358,6 +358,7 @@ body {
   gap: 25px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 
 /* Image box stays fixed width */
 .image-box {
@@ -380,7 +381,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fff;
+  background: #042b56eb;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);

@@ -507,6 +507,7 @@ section .container {
 # Interests (Reduced Size)
 --------------------------------------------------------------*/
 .interests .icon-box {
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;

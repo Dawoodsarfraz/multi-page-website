@@ -698,13 +698,13 @@ body {
 /* Blog Headings */
 .blog-post h3 {
   font-size: 22px;
-  color: greenyellow;
+  color: white;
   margin-bottom: 10px;
   transition: color 0.3s ease;
 }
 
 .blog-post:hover h3 {
-  color: #fff;
+  color: greenyellow;
 }
 
 /* Blog Meta */
@@ -719,7 +719,7 @@ body {
   display: inline-block;
   padding: 10px 20px;
   background: greenyellow;
-  color: #fff;
+  color: #000;
   border-radius: 6px;
   text-decoration: none;
   transition: all 0.3s ease;

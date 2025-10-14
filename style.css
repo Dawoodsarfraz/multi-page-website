@@ -1318,6 +1318,9 @@ body {
   grid-template-columns: repeat(3, minmax(220px, 1fr));
   gap: 25px;
   justify-content: center;
+  max-width: 1000px; /* Limit the total width */
+  margin: 0 auto;   /* Center horizontally */
+  padding: 0 15px;  /* Optional: add some side padding */
 }
 
 .social-card {
@@ -1334,10 +1337,10 @@ body {
 }
 
 .social-card img {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   margin-bottom: 15px;
-  border-radius: 50%;
+  border-radius: 10%;
   object-fit: cover;
 }
 

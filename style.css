@@ -1271,7 +1271,7 @@ body {
 .section-title h2 {
   font-size: 36px;
   margin-bottom: 40px;
-  color: #12d640;
+  color: greenyellow;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -1299,7 +1299,7 @@ body {
 }
 
 .contact-box h3 {
-  color: #12d640;
+  color: greenyellow;
   margin-bottom: 10px;
 }
 
@@ -1309,13 +1309,13 @@ body {
 }
 
 .contact-box a:hover {
-  color: #12d640;
+  color: greenyellow;
 }
 
 /* ===== Social Grid ===== */
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
   gap: 25px;
   justify-content: center;
 }
@@ -1342,7 +1342,7 @@ body {
 }
 
 .social-card h3 {
-  color: #12d640;
+  color: greenyellow;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -1350,7 +1350,7 @@ body {
 .visit-btn {
   display: inline-block;
   padding: 8px 18px;
-  background: #12d640;
+  background: greenyellow;
   color: #0b0c10;
   border-radius: 20px;
   text-decoration: none;
@@ -1359,21 +1359,9 @@ body {
 }
 
 .visit-btn:hover {
-  background: #0fa43a;
+  background: greenyellow;
   transform: scale(1.05);
 }
-
-/* Footer */
-.footer {
-  text-align: center;
-  background: #1f2833;
-  padding: 20px;
-  color: #ccc;
-  font-size: 14px;
-  margin-top: 50px;
-}
-
-
 
   /* ===== Footer ===== */
 .footer {

@@ -363,14 +363,9 @@ body {
   text-align: center;
 }
 
-.section-title h2 {
-  font-size: 2em;
-  color: greenyellow;
-  margin-bottom: 40px;
-}
 
 .project-category h2 {
-  color: #b3f542;
+  color: greenyellow;
   margin-bottom: 20px;
   text-align: left;
   max-width: 1000px;
@@ -417,7 +412,7 @@ body {
 }
 
 .info-box h3 {
-  color: #64ffda;
+  color: greenyellow;
   font-size: 1.4em;
   margin-bottom: 10px;
 }
@@ -487,7 +482,7 @@ body {
 
 /* ===== Skills Box ===== */
 .section-title h2 {
-  margin-top: 70px;
+  margin-top: 100px;
   font-size: 30px;
   color: greenyellow;
   text-transform: uppercase;
@@ -619,11 +614,16 @@ body {
   background: #042b56eb;
   border: 2px solid greenyellow;
   border-radius: 15px;
-  padding: 25px;
-  margin-bottom: 40px;
+  padding: 20px;
+  margin: 20px auto;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  max-width: 900px;   /* control size */
+  min-height: 250px;  /* uniform height */
+  width: 90%;         /* responsive */
 }
+
 
 .research-item:hover {
   background-color: #042b56eb;
@@ -739,6 +739,10 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   text-align: center;
+
+  max-width: 900px;   /* control size */
+  min-height: 200px;  /* uniform height */
+  width: 90%;  
 }
 
 .blog-post:hover {
@@ -907,10 +911,8 @@ body {
   padding-bottom: 5px;
 }
 
-/* ===== Education Cards ===== */
 /* ===== Education Card ===== */
 .education-card {
-  max-width: 1000px;
   margin: 100px auto;
   padding: 20px;
   display: flex;
@@ -921,6 +923,10 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   margin-bottom: 25px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  max-width: 900px;   /* control size */
+  min-height: 250px;  /* uniform height */
+  width: 90%;  
 }
 
 .education-card img {
@@ -959,6 +965,10 @@ body {
   grid-template-columns: repeat(2, minmax(260px, 1fr));
   gap: 25px;
   padding: 50px 0;
+
+  max-width: 900px;   /* control size */
+  min-height: 250px;  /* uniform height */
+  width: 90%;  
 }
 
 .cert-card {
@@ -1071,6 +1081,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
+ 
   }
 
   .gallery-item img {

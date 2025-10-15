@@ -364,6 +364,7 @@ body {
 }
 
 .project-container {
+  color: greenyellow;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
@@ -379,7 +380,10 @@ body {
 .project-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  background: #042b56eb;
+
 }
+
 
 /* Image box */
 .image-box {
@@ -400,6 +404,8 @@ body {
 .info-box {
   flex: 1;
   text-align: left;
+  background: #042b56eb;
+
 }
 
 .info-box h3 {
@@ -936,6 +942,14 @@ body {
   width: 90%;  
 }
 
+.education-card:hover {
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background: #042b56eb;
+
+}
+
 .education-card img {
   width: 100px;
   height: 100px;
@@ -943,8 +957,14 @@ body {
   margin-right: 20px;
 }
 
+.education-content a {
+  flex: 1;
+  color: greenyellow;
+}
+
 .education-content {
   flex: 1;
+  color: white;
 }
 
 .edu-meta {
@@ -1190,10 +1210,12 @@ body {
 /* ======= Awards Section ======= */
 .awards-section {
   padding: 80px 0;
-  background-color: #0d1117;
+  background: #09203a;
   color: #fff;
   text-align: center;
 }
+
+
 
 .awards-section .section-title h2 {
   font-size: 2em;
@@ -1229,7 +1251,10 @@ body {
 .award-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 0 25px greenyellow;
+  background: #042b56eb;
+
 }
+
 
 .award-card img {
   width: 100%;
